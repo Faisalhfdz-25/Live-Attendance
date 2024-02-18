@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LiveAttendanceApp"
         tools:targetApi="31">
         <activity
+            android:name=".views.login.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".views.splash.SplashActivity"
             android:exported="false" />
         <activity
